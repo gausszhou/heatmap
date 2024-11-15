@@ -14,7 +14,7 @@ This will download the latest working version of heatmap.js and put it in your b
 Alternatively you could just download [the latest release](https://github.com/pa7/heatmap.js/releases) from github and unzip it.
 
 
-The file you're ultimately looking for is **heatmap.js** or **heatmap.min.js**
+The file you're ultimately looking for is **heatmap.js** or **heatmap.mjs**
 
 
 

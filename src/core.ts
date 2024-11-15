@@ -54,8 +54,8 @@ var _connect = function (scope) {
   store.setCoordinator(coordinator);
 };
 
-function Heatmap() {
-  var config = (this._config = Util.merge(HeatmapConfig, arguments[0] || {}));
+function Heatmap(option) {
+  var config = (this._config = Util.merge(HeatmapConfig, option || {}));
   this._coordinator = new Coordinator();
   if (config["plugin"]) {
     var pluginToLoad = config["plugin"];

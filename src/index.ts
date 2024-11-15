@@ -2,8 +2,8 @@ import HeatmapConfig from "./config";
 import Heatmap from "./core";
 
 const heatmapFactory = {
-  create: function () {
-    return new Heatmap();
+  create: function (option) {
+    return new Heatmap(option);
   },
   register: function (pluginKey, plugin) {
     HeatmapConfig.plugins[pluginKey] = plugin;
